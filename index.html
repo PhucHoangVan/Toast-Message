@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Toast Message</title>
+</head>
+
+<body>
+    <div class="root">
+        <div id="toast">
+
+            <!-- Success message -->
+            <!-- <div class="toast toast--success">
+                <div class="toast__icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="toast__body">
+                    <h3 class="toast__title">Success</h3>
+                    <p class="toast__mess">Bạn đã đăng ký mua hàng thành công!</p>
+                </div>
+                <div class="toast__close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div> -->
+
+            <!-- Error message -->
+            <!-- <div class="toast toast--error">
+                <div class="toast__icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="toast__body">
+                    <h3 class="toast__title">Error</h3>
+                    <p class="toast__mess">Quá trình đăng ký mua hàng thất bại!</p>
+                </div>
+                <div class="toast__close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div> -->
+
+            <!-- Warning message -->
+            <!-- <div class="toast toast--warning">
+                <div class="toast__icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="toast__body">
+                    <h3 class="toast__title">Warning</h3>
+                    <p class="toast__mess">Bạn cần thêm số lượng cho sản phẩm </p>
+                </div>
+                <div class="toast__close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div> -->
+
+            <!-- Infomation message -->
+            <!-- <div class="toast toast--info">
+                <div class="toast__icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="toast__body">
+                    <h3 class="toast__title">Infomation</h3>
+                    <p class="toast__mess">Bạn phải đăng ký trước khi mua hàng</p>
+                </div>
+                <div class="toast__close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div> -->
+        </div>
+
+        <!-- Button show message -->
+        <div>
+            <div onclick="showSuccessToast()" class="btn btn--success">Show success toast</div>
+            <div onclick="showErrorToast()" class="btn btn--error">Show error toast</div>
+        </div>
+        <div>
+            <div onclick="showWarningToast()" class="btn btn--warning">Show warning toast</div>
+            <div onclick="showInfoToast()" class="btn btn--info">Show info toast</div>
+        </div>
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
