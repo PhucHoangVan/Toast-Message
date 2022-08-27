@@ -55,6 +55,24 @@ body {
 .btn--info {
     background-color: #357fd9;
 }
+/* Wrap control */
+.wrap-control{
+    background-color: #444;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.wrap-control .title{
+    padding-bottom: 10px;
+    text-align: center;
+    color: #dbdbdb;
+}
+
+.wrap-control p{
+    color: #888;
+    text-align: end;
+    margin-top: 20px;
+}
 
 /* CSS toast message */
 #toast {
